@@ -1,0 +1,3 @@
+ cookie=0x0, duration=15.772s, table=0, n_packets=5476, n_bytes=361748, priority=1,in_port="s1-eth3",dl_src=00:00:00:00:00:04,dl_dst=00:00:00:00:00:01 actions=output:"s1-eth1"
+ cookie=0x0, duration=15.765s, table=0, n_packets=7005, n_bytes=19995118, priority=1,in_port="s1-eth1",dl_src=00:00:00:00:00:01,dl_dst=00:00:00:00:00:04 actions=output:"s1-eth3"
+ cookie=0x0, duration=18.097s, table=0, n_packets=50, n_bytes=5045, priority=0 actions=CONTROLLER:65535

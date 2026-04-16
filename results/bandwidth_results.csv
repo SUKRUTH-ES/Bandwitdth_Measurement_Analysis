@@ -1,0 +1,4 @@
+timestamp,topology,source_host,destination_host,ping_avg_ms,throughput_mbps,notes
+20260416_222253,star,h1,h4,22.67,44.3,
+20260416_222311,linear,h1,h4,77.781,13.7,
+20260416_222331,tree,h1,h4,62.208,23.7,
