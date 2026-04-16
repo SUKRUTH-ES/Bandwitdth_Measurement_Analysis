@@ -113,19 +113,4 @@ You should observe:
 - `tree` topology performing between `star` and `linear`
 - Higher latency in topologies with more switch hops and larger configured delay
 
-## Points to mention in your final explanation
 
-- The controller receives `packet_in` messages before installing learned forwarding rules
-- Throughput is affected by the narrowest link on the path
-- Additional hops and delay increase average RTT
-- Flow tables prove that SDN forwarding rules are dynamically installed during communication
-
-## Suggested GitHub submission items
-
-- Upload this complete project folder
-- Include screenshots of:
-  - controller logs
-  - `iperf` output
-  - `ping` output
-  - `ovs-ofctl dump-flows` logs
-- Include a short result table copied from `results/bandwidth_results.csv`
